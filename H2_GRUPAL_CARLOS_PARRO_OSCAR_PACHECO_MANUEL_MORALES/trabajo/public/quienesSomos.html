@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Géneros Musicales</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+    <!-- Importo el CDN de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body style="background-color: #21325E;">
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar fixed-top" style="background-color: #000A34;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span id="brand" class="material-icons">mic_external_on</span></a>
+            <button id="menu" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span id="menuIcon" class="material-icons">menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./generoMusical.html">Género Musical</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./quienesSomos.html">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Manuel Morales, Óscar Pacheco, Carlos Parro
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <article>
+            <div class="container">
+                <br>
+                <br>
+                <br>
+                <div id="quienesSomos" style="overflow-y: hidden;">
+
+                    <h3>Nuestra Historia</h3>
+                    <br>
+                    Music Helper nace como empresa que ofrece servicios a artistas y sellos independientes,
+                    desarrollando una la tecnología propia de distribución digital, llamada Music Helper, siendo ésta
+                    una
+                    plataforma que permite a artistas independientes crear, distribuir, intercambiar y acceder a obras y
+                    datos relacionados.
+
+
+
+                    <br><br>
+                    <div id="misionyvalores">
+                        <h3>MISIÓN</h3>
+                        Brindar oportunidad a todos los músicos y sellos de forma transparente, independiente y próxima
+                        para que puedan desarrollar sus carreras artísticas, ofreciéndoles un abanico 360º de todo lo
+                        que necesitan.
+                        <br><br>
+
+                        <div id="valorestransparencia">
+                            <h2>Valores</h2>
+                            <br>
+                            <h5>INDEPENDENCIA</h5>
+
+                            El artista decide cuándo, cómo, dónde y qué quiere hacer con su música. Sin exclusividad ni
+                            permanencia.
+                            <br><br>
+                            <h5>TRANSPARENCIA</h5>
+
+                            Ofrecemos datos transparentes de las ventas y royalties.
+                            <br><br>
+                        </div>
+
+                    </div>
+
+                    <div id="videoshorizontal">
+
+                        <video src="video/denegro.mp4" controls="controls">
+                            <!-- <source src="fichero.mp4" type="video/mp4" />
+                            <source src="fichero.webm" type="video/webm" /> -->
+                            <!-- Subtítulos y descripciones de audio -->
+                            <track src="fichero.vtt" kind="captions" srclang="es" label="español" />
+                            <track src="fichero.vtt" kind="descriptions" srclang="es" />
+                        </video>
+
+                        <video src="video/novoy.mp4" controls="controls">
+                            <!-- <source src="fichero.mp4" type="video/mp4" />
+                            <source src="fichero.webm" type="video/webm" /> -->
+                            <!-- Subtítulos y descripciones de audio -->
+                            <track src="fichero.vtt" kind="captions" srclang="es" label="español" />
+                            <track src="fichero.vtt" kind="descriptions" srclang="es" />
+                        </video>
+
+                        <video src="video/recen.mp4" controls="controls">
+                            <!-- <source src="fichero.mp4" type="video/mp4" />
+                            <source src="fichero.webm" type="video/webm" /> -->
+                            <!-- Subtítulos y descripciones de audio -->
+                            <track src="fichero.vtt" kind="captions" srclang="es" label="español" />
+                            <track src="fichero.vtt" kind="descriptions" srclang="es" />
+                        </video>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-white fixed-bottom" style="background-color: #4F5B8C;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
+                    href="https://es-es.facebook.com/campusfp/" role="button"><i id="rrss"
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
+                    href="https://twitter.com/Campus_FP?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                    role="button"><i id="rrss" class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;"
+                    href="https://campusfp.es/fp/proximos/google-for-education-campusfp/" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;"
+                    href="https://www.instagram.com/campusfp_/?hl=es" role="button"><i id="rrss"
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
+                    href="https://formacion.infojobs.net/centro-privado-formacion-profesional-especifica-campus-fp-leganes-estudios-para-trabajar-profesiones-artes-oficios-madrid-csp-199082-16-35.htm"
+                    role="button"><i id="rrss" class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
+                    href="https://github.com/carmelogithub" role="button"><i id="rrss" class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://campusfp.es/">CampusFP</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>
